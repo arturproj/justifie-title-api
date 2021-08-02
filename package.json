@@ -1,0 +1,27 @@
+{
+  "name": "justifie-title-api",
+  "version": "1.0.0",
+  "description": "Implémenter et déployer une API REST qui justifie un texte passé en paramètre.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "mocha ./tests/* --exit"
+  },
+  "keywords": [],
+  "author": "Artur Shodaton  (https://github.com/arturproj)",
+  "license": "MIT",
+  "dependencies": {
+    "connect-mongo": "^3.2.0",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-session": "^1.17.2",
+    "jwt-simple": "^0.5.6",
+    "mongoose": "^5.13.5"
+  },
+  "devDependencies": {
+    "faker": "^5.5.3",
+    "mocha": "^9.0.3",
+    "nodemon": "^2.0.12",
+    "supertest": "^6.1.4"
+  }
+}
